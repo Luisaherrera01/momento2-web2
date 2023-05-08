@@ -2,7 +2,7 @@ import "./styleCards.css"
 
 const CardCliente = ({clientes}) => {
   return (
-    <section className="card">
+    <section className="card">Clientes
         {
             clientes.map((cliente) =>(
                 <section className="cardCliente">
