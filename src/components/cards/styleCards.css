@@ -6,7 +6,7 @@
     padding: 20px;
 }
 
-.cardCliente, .cardProductos{
+.cardCliente, .cardProductos, .cardProveedores{
     display: flex;
     flex-direction: column;
     width: 100%;
