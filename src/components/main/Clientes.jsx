@@ -22,7 +22,7 @@ const Clientes = () => {
   return (
     <section>
       <Header/>
-      <section>
+      <section >
         <Cardcliente clientes = {clientes}/>
       </section>
       

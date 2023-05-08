@@ -1,11 +1,11 @@
-
+import "./styleCards.css"
 
 const CardCliente = ({clientes}) => {
   return (
-    <section>
+    <section className="card">
         {
             clientes.map((cliente) =>(
-                <section>
+                <section className="cardCliente">
                     <h3>{cliente.nombre}</h3>
                     <h3>{cliente.apellido}</h3>
                     <h1>{cliente.direccion}</h1>
