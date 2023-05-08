@@ -1,10 +1,27 @@
 import Header from "../header/Header"
+import CardProductos from "../cards/CardProductos"
 
 const Productos = () => {
+  const productos =[
+    {
+      nombre:"Camisas",
+      cantidad:2
+    },
+    {
+      nombre:"Camisas",
+      cantidad:2
+    },
+    {
+      nombre:"Camisas",
+      cantidad:2
+    },
+  ]
   return (
     <section>
       <Header/>
-      <p>Productos</p>
+      <section >
+        <CardProductos productos = {productos}/>
+      </section>
     </section>
   )
 }
