@@ -1,9 +1,9 @@
-import Home from "../home/Home"
+import Header from "../header/Header"
 
 const Clientes = () => {
   return (
     <section>
-      <Home/>
+      <Header/>
       <p>Clientes</p>
     </section>
   )

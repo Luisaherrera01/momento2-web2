@@ -1,5 +1,5 @@
 import { createBrowserRouter,RouterProvider } from "react-router-dom"
-import Home from "./components/home/Home"
+import Header from "./components/header/Header"
 import Clientes from "./components/main/Clientes"
 import Productos from "./components/main/Productos"
 import Proveedores from "./components/main/Proveedores"
@@ -7,7 +7,7 @@ import Proveedores from "./components/main/Proveedores"
 const router = createBrowserRouter([
     {
       path:"/",
-      element:<Home/>
+      element:<Header/>
     },
     { 
         path: "/clientes",

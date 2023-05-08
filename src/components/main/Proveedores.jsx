@@ -1,8 +1,11 @@
-import React from 'react'
+import Header from "../header/Header"
 
 const Proveedores = () => {
   return (
-    <div>Proveedores</div>
+    <section>
+      <Header/>
+      <p>Proveedores</p>
+    </section>
   )
 }
 
